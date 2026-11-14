@@ -37,7 +37,7 @@ WebView2 Runtime is required for the 3D scan view.
 
 ## Pre-release safety notes
 
-- The MeshCentral agent executable is intentionally excluded from the public source snapshot. The Remote Support integration code/documentation is included; supply an appropriately configured agent through your own controlled release process and verify user-consent policies before distribution.
+-code/documentation is included; supply an appropriately configured agent through your own controlled release process and verify user-consent policies before distribution.
 - Production verification keys have been replaced with setup placeholders. Insert only public verification keys; never commit private signing keys, API tokens or credentials.
 - The updater still references AEOX production manifest/download endpoints. Test or disable the updater for local development before distributing custom builds.
 - The source snapshot has not been compiled or tested in this environment. Build and validate it on Windows with .NET 9 before using it.
