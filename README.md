@@ -2,24 +2,33 @@
 
 **Optimize your PC. Maximize your FPS.**
 
-REPO PC is a Windows utility designed to help optimize gaming performance, reduce unnecessary background activity, and inspect system performance.
+REPO PC is a Windows utility for gaming optimization, system monitoring and performance diagnostics.
 
 <p align="center">
-  <a href="https://github.com/Vivihi01/RepoOptimizer/releases/download/v0.3.0-preview.1/Repo.exe">
+  <a href="https://github.com/Vivihi01/RepoOptimizer/releases">
     <img src="https://img.shields.io/badge/DOWNLOAD-REPO%20FOR%20WINDOWS-5865F2?style=for-the-badge&logo=windows&logoColor=white" alt="Download REPO for Windows">
   </a>
   <br>
-  <sub>Windows x64 · v0.3.0 Preview · 170 MB</sub>
+  <sub>Windows x64 · Latest preview release</sub>
 </p>
 
-**[View all releases](https://github.com/Vivihi01/RepoOptimizer/releases)** · **[Source code](https://github.com/Vivihi01/RepoOptimizer)**
+**[Download the latest release](https://github.com/Vivihi01/RepoOptimizer/releases)** · **[Browse source](https://github.com/Vivihi01/RepoOptimizer)**
 
-> **Early access:** This is a pre-release build. Expect bugs and breaking changes. Only download if you understand that this is preview software.
+## What's new in the updated preview
 
-## What's included
+- **Updated color palette** across the application interface.
+- **Live hardware monitoring:** CPU and GPU utilization, plus available CPU/GPU temperature readings.
+- **Processes tab:** inspect running processes and their resource usage.
+- **Startup apps:** view and manage applications configured to start with Windows.
+- **Settings refinements:** adjustments to integrated-app settings.
+- **Potato Graphics beta:** experimental low-graphics presets for supported games, including Fortnite and Retrac.
 
-- Windows optimization and game-specific tweak catalog
-- Hardware, GPU driver and live game monitoring tools
+Hardware temperature availability depends on the device, drivers and supported sensor interfaces. Potato Graphics is beta functionality; supported settings and results may vary by game and system.
+
+## Other features
+
+- Windows and game-specific optimization tweaks
+- Hardware and GPU driver information
 - Background process management and network diagnostics
 - WPF user interface and 3D scan view
 - Licensing components and automated tests
@@ -35,13 +44,12 @@ dotnet publish .\src\Repo.App\Repo.App.csproj -c Release -r win-x64 --self-conta
 
 WebView2 Runtime is required for the 3D scan view.
 
-## Pre-release safety notes
+## Pre-release notes
 
-- code/documentation is included; supply an appropriately configured agent through your own controlled release process and verify user-consent policies before distribution.
-- Production verification keys have been replaced with setup placeholders. Insert only public verification keys; never commit private signing keys, API tokens or credentials.
-- The updater still references AEOX production manifest/download endpoints. Test or disable the updater for local development before distributing custom builds.
-- The source snapshot has not been compiled or tested in this environment. Build and validate it on Windows with .NET 9 before using it.
+This is experimental preview software. Expect bugs and breaking changes. Review every system-level change before applying it and keep a backup. Temperature readings may be unavailable on some hardware. Potato Graphics is a beta feature and should be tested carefully.
 
-## Status
+## Security and configuration
 
-Early preview for source review and testing. Back up your system and inspect each system-level change before applying it.
+- Do not commit private signing keys, API tokens, credentials or customer/device data.
+- Review the Remote Support consent and visibility configuration before distributing builds that include remote-support functionality.
+- The updater and licensing components use REPO/AEOX service endpoints; custom builds may require maintainer-side configuration.
