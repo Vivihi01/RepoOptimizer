@@ -1,8 +1,21 @@
 # Changelog
 
-## v0.3.0-preview.1 — source snapshot
+## v0.3.1-preview.1 — updated UI and monitoring beta
 
-- Publish REPO PC source tree for early review.
-- Include application, core, UI, licensing components and automated tests.
-- Exclude bundled remote-support agent binary from the public source snapshot.
-- Replace production verification-key literals with setup placeholders pending maintainer configuration.
+- Refresh the application's color palette.
+- Add CPU and GPU utilization indicators and available temperature readings.
+- Add a Processes tab to inspect running processes and resource usage.
+- Add startup-app listing and management.
+- Refine settings for integrated applications.
+- Introduce the beta Potato Graphics presets for supported games, including Fortnite and Retrac.
+
+### Preview notes
+
+- Temperature sensors and readings depend on hardware and driver support.
+- Potato Graphics is experimental; supported games, settings and results may vary.
+- This is a pre-release build and has not been independently validated on every supported PC.
+
+## v0.3.0-preview.1 — initial source snapshot
+
+- Publish REPO PC source overview and initial preview documentation.
+- Add security and remote-support integration notes.
