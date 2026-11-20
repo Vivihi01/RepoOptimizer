@@ -9,12 +9,12 @@ REPO PC is a Windows utility for gaming optimization, system monitoring and perf
     <img src="https://img.shields.io/badge/DOWNLOAD-REPO%20FOR%20WINDOWS-5865F2?style=for-the-badge&logo=windows&logoColor=white" alt="Download REPO for Windows">
   </a>
   <br>
-  <sub>Windows x64 · Latest preview release</sub>
+  <sub>Windows x64 · Latest release</sub>
 </p>
 
 **[Download the latest release](https://github.com/Vivihi01/RepoOptimizer/releases)** · **[Browse source](https://github.com/Vivihi01/RepoOptimizer)**
 
-## What's new in the updated preview
+## What's new in the latest release
 
 - **Updated color palette** across the application interface.
 - **Live hardware monitoring:** CPU and GPU utilization, plus available CPU/GPU temperature readings.
@@ -22,6 +22,8 @@ REPO PC is a Windows utility for gaming optimization, system monitoring and perf
 - **Startup apps:** view and manage applications configured to start with Windows.
 - **Settings refinements:** adjustments to integrated-app settings.
 - **Potato Graphics beta:** experimental low-graphics presets for supported games, including Fortnite and Retrac.
+- **UI improvements:** smoother navigation and a more responsive interface, with interface lag addressed.
+- **Major RAM optimization:** reduced typical memory usage from **600 MB+ to under 100 MB**.
 
 Hardware temperature availability depends on the device, drivers and supported sensor interfaces. Potato Graphics is beta functionality; supported settings and results may vary by game and system.
 
