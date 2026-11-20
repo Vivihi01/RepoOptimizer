@@ -1,4 +1,4 @@
-# REPO PC
+# REPO Optimizer
 
 **Optimize your PC. Maximize your FPS.**
 
